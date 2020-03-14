@@ -18,6 +18,7 @@
 		CE70549B241CB0F900CEB656 /* ArticleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE70549A241CB0F900CEB656 /* ArticleList.swift */; };
 		CE705495241CAEDB00CEB656 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE705494241CAEDB00CEB656 /* ArticleViewModel.swift */; };
 		CE705499241CB0D300CEB656 /* ArticleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE705498241CB0D300CEB656 /* ArticleListViewModel.swift */; };
+		CE70549E241CB4C900CEB656 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE70549D241CB4C900CEB656 /* ArticleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		CE70549A241CB0F900CEB656 /* ArticleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleList.swift; sourceTree = "<group>"; };
 		CE705494241CAEDB00CEB656 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
 		CE705498241CB0D300CEB656 /* ArticleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewModel.swift; sourceTree = "<group>"; };
+		CE70549D241CB4C900CEB656 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		CE70546D241C8DAE00CEB656 /* swift-news */ = {
 			isa = PBXGroup;
 			children = (
+				CE70549C241CB4AA00CEB656 /* Cells */,
 				CE705493241CAEAE00CEB656 /* ViewModels */,
 				CE705490241CA9B600CEB656 /* Models */,
 				CE70548D241CA3B100CEB656 /* Services */,
@@ -116,6 +119,14 @@
 				CE705498241CB0D300CEB656 /* ArticleListViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CE70549C241CB4AA00CEB656 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CE70549D241CB4C900CEB656 /* ArticleTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE70546F241C8DAE00CEB656 /* AppDelegate.swift in Sources */,
+				CE70549E241CB4C900CEB656 /* ArticleTableViewCell.swift in Sources */,
 				CE705489241C92C800CEB656 /* NewsListTableViewController.swift in Sources */,
 				CE70549B241CB0F900CEB656 /* ArticleList.swift in Sources */,
 				CE70548F241CA3DC00CEB656 /* WebService.swift in Sources */,
