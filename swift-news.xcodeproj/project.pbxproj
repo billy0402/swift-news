@@ -14,6 +14,8 @@
 		CE70547B241C8DB100CEB656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE705479241C8DB100CEB656 /* LaunchScreen.storyboard */; };
 		CE705489241C92C800CEB656 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE705488241C92C800CEB656 /* NewsListTableViewController.swift */; };
 		CE70548F241CA3DC00CEB656 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE70548E241CA3DC00CEB656 /* WebService.swift */; };
+		CE705492241CA9D800CEB656 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE705491241CA9D800CEB656 /* Article.swift */; };
+		CE70549B241CB0F900CEB656 /* ArticleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE70549A241CB0F900CEB656 /* ArticleList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		CE705486241C8F5100CEB656 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		CE705488241C92C800CEB656 /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
 		CE70548E241CA3DC00CEB656 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		CE705491241CA9D800CEB656 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		CE70549A241CB0F900CEB656 /* ArticleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 		CE70546D241C8DAE00CEB656 /* swift-news */ = {
 			isa = PBXGroup;
 			children = (
+				CE705490241CA9B600CEB656 /* Models */,
 				CE70548D241CA3B100CEB656 /* Services */,
 				CE705487241C928A00CEB656 /* Controllers */,
 				CE70546E241C8DAE00CEB656 /* AppDelegate.swift */,
@@ -88,6 +93,15 @@
 				CE70548E241CA3DC00CEB656 /* WebService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		CE705490241CA9B600CEB656 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE705491241CA9D800CEB656 /* Article.swift */,
+				CE70549A241CB0F900CEB656 /* ArticleList.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,8 +177,10 @@
 			files = (
 				CE70546F241C8DAE00CEB656 /* AppDelegate.swift in Sources */,
 				CE705489241C92C800CEB656 /* NewsListTableViewController.swift in Sources */,
+				CE70549B241CB0F900CEB656 /* ArticleList.swift in Sources */,
 				CE70548F241CA3DC00CEB656 /* WebService.swift in Sources */,
 				CE705471241C8DAE00CEB656 /* SceneDelegate.swift in Sources */,
+				CE705492241CA9D800CEB656 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
